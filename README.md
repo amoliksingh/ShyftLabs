@@ -1,20 +1,18 @@
-# Rooms_temp
-Project for Teclado blog
+# Backend
 
-## Quickstart
-
-Create a `.env` file with a `DATABASE_URL` variable that points to a PostgreSQL database. Look at `.env.example` for information on how this should be written.
+Create a `.env` file with a `DATABASE_URL` variable that points to a PostgreSQL database. Look at `.env.example` for information on how this should be written. This installation is for Windows, commands may be different on other Operating Systems.
+Also, for configuring PostgreSQL, additional steps are needed, I created a database called postgres and have username postgres for this project.
 
 Create a Python virtual environment:
 
 ```
-python3.10 -m venv .venv
+python -m venv .venv
 ```
 
 Activate the virtual environment and install the dependencies using `pip`:
 
 ```
-source .venv/bin/activate  # different on Windows
+source ./env/Scripts/activate
 pip install -r requirements.txt
 ```
 
@@ -23,3 +21,19 @@ Run the app:
 ```
 flask run
 ```
+
+# Frontend
+
+Go to the react-website folder and install the dependencies using `npm`:
+
+```
+cd react-website
+npm install
+```
+
+Run the app:
+
+```
+npm start
+```
+
