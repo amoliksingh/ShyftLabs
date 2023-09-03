@@ -24,10 +24,9 @@ flask run
 
 # Frontend
 
-Go to the react-website folder and install the dependencies using `npm`:
+Install the dependencies using `npm`:
 
 ```
-cd react-website
 npm install
 ```
 

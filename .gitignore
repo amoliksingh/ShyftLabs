@@ -128,15 +128,15 @@ dmypy.json
 .pyre/
 
 # dependencies
-/react-website/node_modules
-/react-website/.pnp
+/node_modules
+.pnp
 .pnp.js
 
 # testing
-/react-website/coverage
+/coverage
 
 # production
-/react-website/build
+/build
 
 # misc
 .DS_Store
